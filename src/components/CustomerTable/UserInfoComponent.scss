@@ -1,0 +1,21 @@
+.user-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .user-avatar {
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    margin: 10px;
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    .user-name {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+  }
+}

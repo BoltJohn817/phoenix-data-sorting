@@ -1,0 +1,21 @@
+.status-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 5px 10px;
+  .status-icon {
+    margin-left: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+
+    &.Active{
+      background-color: green;
+    }
+    &.Inactive{
+      background-color: red;
+    }
+  }
+}
